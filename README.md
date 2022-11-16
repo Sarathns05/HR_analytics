@@ -36,14 +36,14 @@ Dataset details :
 Model Used:
 ---------------
 
-    The dataset shows that this is clearly a classification task and can be solved by a myriad of classification algorithms,
-    I chose Support Vector Classifier(SVC) because of the flexibility it shows during training.
+   The dataset shows that this is clearly a classification task and can be solved by a myriad of classification algorithms,
+   I chose Support Vector Classifier(SVC) because of the flexibility it shows during training.
     
-    Hyper Parameters chosen for:
+   Hyper Parameters chosen for:
         SVC: {kernel='linear', degree=3, probability=True}
         Random Forest: {'criterion': 'entropy', 'max_depth': 9, 'max_features': 'sqrt', 'n_estimators': 425}
-    Provided the dataset was slightly unbalanced, the SVM model gave a better Recall score for the negative classes as compared to Random Forest.
-    Hence, I chose SVM as the model to use for the API.
+   Provided the dataset was slightly unbalanced, the SVM model gave a better Recall score for the negative classes as compared to Random Forest.
+   Hence, I chose SVM as the model to use for the API.
 
 API:
 ----------
