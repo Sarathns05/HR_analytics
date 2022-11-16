@@ -4,9 +4,9 @@ HR-Analytics: Predict whether employe get promoted or not
 Dataset details : 
 ---------------------------------
 
-    employee_id        -     Unique ID for employee
+  employee_id        -     Unique ID for employee
     
-    department         -     Department of employee
+  department         -     Department of employee
     
     region             -     Region of employment (unordered)
     
